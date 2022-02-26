@@ -1,3 +1,4 @@
+
 body {
   background: #eee;
   font-family: sans-serif;
@@ -5,7 +6,7 @@ body {
 
 .card {
   width: 400px;
-  background: #fff;
+  background: white;
   margin: 16px auto;
 }
 
@@ -15,13 +16,20 @@ body {
 
 .content {
   background: #e3f4ff;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 10px;
+  padding-left: 10px;
+  margin-bottom: 10px;  
 }
 
 .button-container {
   background: #e3f4ff;
+  padding: 20px;
 }
 
 button {
   background: white;
   border: 1px solid #eee;
+  display: block;
 }
